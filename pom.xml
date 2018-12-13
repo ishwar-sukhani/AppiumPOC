@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.test.android</groupId>
+  <artifactId>AndroidTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+     <selenium-jar-version>3.14.0</selenium-jar-version>
+     <appium-jar-version>5.0.4</appium-jar-version>
+     <testng-jar-version>6.11</testng-jar-version>
+     <apache-poi-version>3.17</apache-poi-version>
+     <surefire-version>2.18.1</surefire-version>
+     <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+ </properties>
+  <dependencies>
+     <!-- Selenium Dependency -->
+     <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>${selenium-jar-version}</version>
+    </dependency>
+    <!-- Appium Dependency -->
+    <dependency>
+    <groupId>io.appium</groupId>
+    <artifactId>java-client</artifactId>
+    <version>${appium-jar-version}</version>
+	</dependency>
+    <!-- TestNG Dependency -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>${testng-jar-version}</version>
+    </dependency>
+ </dependencies>  
+</project>
