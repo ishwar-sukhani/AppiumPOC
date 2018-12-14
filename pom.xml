@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <properties>
      <selenium-jar-version>3.14.0</selenium-jar-version>
-     <appium-jar-version>5.0.4</appium-jar-version>
+     <appium-jar-version>6.1.0</appium-jar-version>
      <testng-jar-version>6.11</testng-jar-version>
      <apache-poi-version>3.17</apache-poi-version>
      <surefire-version>2.18.1</surefire-version>
@@ -17,6 +17,11 @@
      <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
+        <version>${selenium-jar-version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-server</artifactId>
         <version>${selenium-jar-version}</version>
     </dependency>
     <!-- Appium Dependency -->
